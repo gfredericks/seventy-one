@@ -1,6 +1,8 @@
 (ns com.gfredericks.seventy-one
-  "Namespace containing seventy-one.")
+  "Namespace containing seventy-ones.")
 
-(def seventy-one
-  "The number seventy-one, i.e. 71."
-  71)
+(def seventy-ones
+  "The numbers seventy-one"
+  (->> (range 8 37)
+       (map #(Long/parseLong "71" %))
+       (set)))
