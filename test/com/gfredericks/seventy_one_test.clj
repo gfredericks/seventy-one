@@ -4,3 +4,6 @@
 
 (deftest seventy-one-test
   (is (= 71 seventy-one)))
+
+(deftest seventy-two-test
+  (is (= 72 seventy-two)))
