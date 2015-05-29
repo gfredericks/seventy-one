@@ -2,7 +2,9 @@
 
 The number 71 (and 1...and 2...through 99) in *Haskell*
 
-WITH TYPE-SAFETY!
+WITH TYPE-SAFETY...
+
+*and no manual definitions of the numbers!*
 
 ## Usage
 
