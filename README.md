@@ -1,25 +1,26 @@
 # seventy-one
 
-The number 71 in Clojure
+The number 71 (and 1...and 2...through 99) in *Haskell*
 
-## Obtention
-
-`[com.gfredericks/seventy-one "0.1.0"]`
+WITH TYPE-SAFETY!
 
 ## Usage
 
-``` clojure
-(require '[com.gfredericks.seventy-one :refer [seventy-one]])
+``` haskell
+import SeventyOne
 
-(defn business-logic
-  [customer-count]
-  ;; add 71 to customer-count
-  (+ customer-count seventy-one))
+businessLogic :: Integer
+businessLogic customerCount =
+  customerCount + seventyOne
 ```
+
+## Screenshot
+
+![](ss.png "macros r00l")
 
 ## License
 
-Copyright © 2015 Gary Fredericks
+Copyright © 2015 Gary Fredericks, Chris Allen
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
