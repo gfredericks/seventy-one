@@ -17,6 +17,10 @@ The number 71 in Clojure
   (+ customer-count seventy-one))
 ```
 
+## Documentation
+
+Codox docs are [here](http://gfredericks.github.io/seventy-one/).
+
 ## License
 
 Copyright © 2015 Gary Fredericks
