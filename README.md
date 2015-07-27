@@ -4,7 +4,7 @@ The number 71 in Clojure
 
 ## Obtention
 
-`[com.gfredericks/seventy-one "0.1.0"]`
+`[com.gfredericks/seventy-one "0.1.1"]`
 
 ## Usage
 
