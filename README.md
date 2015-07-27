@@ -1,10 +1,15 @@
 # seventy-one
 
-The number 71 in Clojure
+The number 71 in Clojure[script]
 
 ## Obtention
 
 `[com.gfredericks/seventy-one "0.1.1"]`
+
+## Compatibility notes
+
+As of release `0.1.1` seventy-one requires clojure 1.7, as its source
+is packaged in the new `.cljc` file format.
 
 ## Usage
 
