@@ -1,6 +1,6 @@
 # seventy-one
 
-The number 71 in Clojure[script]
+A portable implementation of the number 71 in Clojure and ClojureScript.
 
 ## Obtention
 
