@@ -11,7 +11,7 @@
   ;; is fixed
   :aliases {"test" ["test" "com.gfredericks.seventy-one-test"]}
   :profiles {:dev {:dependencies [[org.clojure/clojurescript "0.0-3308"]
-                                  [org.clojure/test.check "0.7.0"]]
+                                  [org.clojure/test.check "0.8.0-RC1"]]
                    :cljsbuild {:builds [{:source-paths ["src" "test"]
                                          :compiler {:output-to "resources/private/js/unit-test.js"
                                                     :optimizations :whitespace
