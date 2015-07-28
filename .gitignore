@@ -3,6 +3,9 @@
 /checkouts
 pom.xml
 pom.xml.asc
+*.clj
+*.cljs
+*.cljc
 *.jar
 *.class
 /.lein-*
