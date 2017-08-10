@@ -7,9 +7,6 @@
   :plugins [[codox "0.8.12"]
             [lein-cljsbuild "1.1.7"]]
   :deploy-repositories [["releases" :clojars]]
-  ;; temporary hack until https://github.com/technomancy/leiningen/issues/1940
-  ;; is fixed
-  :aliases {"test" ["test" "com.gfredericks.seventy-one-test"]}
   :profiles {:dev {:dependencies [[org.clojure/clojurescript "1.9.854"]
                                   [org.clojure/spec.alpha "0.1.123"]
                                   [org.clojure/test.check "0.10.0-alpha2"]]
