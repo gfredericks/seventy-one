@@ -7,7 +7,8 @@
 
 (defn seventy-one?
   "Checks whether an object is a number that is equal to seventy
-  one. Returns true for integral and floating-point seventy-ones."
+  one. Returns true for integral, decimal, and floating-point
+  seventy-ones."
   [x]
   (and (number? x)
        (== x so/seventy-one)))
@@ -32,7 +33,7 @@
        x)))
 
 (defn gen-seventy-one
-  "Returns a clojure.test.check generator that returns 71. Useful for
-  writing robust test cases for code that uses the number 71."
+  "Returns a clojure.test.check generator that generates 71. Useful
+  for writing robust test cases for code that uses the number 71."
   []
   (s/gen ::so/seventy-one))
