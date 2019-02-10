@@ -1,4 +1,4 @@
-(defproject com.gfredericks/seventy-one "0.1.5"
+(defproject com.gfredericks/seventy-one "0.1.6-SNAPSHOT"
   :description "71 in Clojure"
   :url "https://github.com/gfredericks/seventy-one"
   :license {:name "Eclipse Public License"
