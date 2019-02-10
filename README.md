@@ -4,7 +4,7 @@ A portable implementation of the number 71 in Clojure and ClojureScript.
 
 ## Obtention
 
-`[com.gfredericks/seventy-one "0.1.4"]`
+`[com.gfredericks/seventy-one "0.1.5"]`
 
 ## Compatibility notes
 
